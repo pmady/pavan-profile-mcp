@@ -1,0 +1,20 @@
+# Smithery.ai deployment configuration
+# Publish: https://smithery.ai/docs/publishing
+
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      GITHUB_TOKEN:
+        type: string
+        description: "Optional GitHub personal access token for higher API rate limits"
+    required: []
+  commandFunction: |-
+    (config) => ({
+      command: "uv",
+      args: ["run", "server.py"],
+      env: {
+        GITHUB_TOKEN: config.GITHUB_TOKEN || ""
+      }
+    })

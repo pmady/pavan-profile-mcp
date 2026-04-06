@@ -1,0 +1,303 @@
+{
+  "name": "Pavan Madduri",
+  "title": "Senior DevOps / Platform Engineer",
+  "location": "United States",
+  "summary": "Senior DevOps/Platform Engineer with deep expertise in cloud-native technologies, Kubernetes ecosystems, AI/ML infrastructure, and open source leadership. CNCF Golden Kubestronaut (all 15 cloud-native certifications). Published author on CNCF Blog, IEEE ComSoc, CloudNativeNow, and PlatformEngineering.com. Active contributor and community member across 15+ CNCF and ASWF projects.",
+  "links": {
+    "github": "https://github.com/pmady",
+    "linkedin": "https://www.linkedin.com/in/pavanmadduri/",
+    "blog": "https://pavanmadduri.wordpress.com/",
+    "medium": "https://medium.com/@pavan4devops",
+    "devto": "https://dev.to/pavan_madduri"
+  },
+  "certifications": [
+    {
+      "name": "CNCF Golden Kubestronaut",
+      "issuer": "Cloud Native Computing Foundation",
+      "description": "Achieved all 15 CNCF cloud-native certifications plus LFCS. One of the most elite cloud-native credentials in the world.",
+      "exclusivity": "Top tier of Kubernetes practitioners worldwide — requires passing every CNCF certification",
+      "verification": "https://www.cncf.io/training/kubestronaut/?p=pavan-madduri",
+      "includes": {
+        "kubernetes_core": [
+          "CKA — Certified Kubernetes Administrator",
+          "CKAD — Certified Kubernetes Application Developer",
+          "CKS — Certified Kubernetes Security Specialist"
+        ],
+        "cloud_native_associate_specialist": [
+          "KCNA — Kubernetes and Cloud Native Associate",
+          "KCSA — Kubernetes and Cloud Native Security Associate",
+          "PCA — Prometheus Certified Associate",
+          "KCA — Kyverno Certified Associate",
+          "CCA — Cilium Certified Associate",
+          "ICA — Istio Certified Associate",
+          "CGOA — Certified GitOps Associate",
+          "CAPA — Certified Argo Project Associate",
+          "CBA — Certified Backstage Associate"
+        ],
+        "platform_engineering": [
+          "CNPA — Certified Cloud Native Platform Engineering Associate"
+        ],
+        "linux_fundamentals": [
+          "LFCS — Linux Foundation Certified System Administrator"
+        ]
+      }
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "Peer-to-Peer Acceleration for AI Model Distribution with Dragonfly",
+      "category": "AI/ML Infrastructure",
+      "publication": "CNCF Blog",
+      "url": "https://www.cncf.io/blog/2026/04/06/peer-to-peer-acceleration-for-ai-model-distribution-with-dragonfly/",
+      "highlight": true
+    },
+    {
+      "id": 2,
+      "title": "The Financial Trap of Autonomous Networks: Scaling Agentic AI in the Telecom Core",
+      "category": "AI & Telecom",
+      "publication": "IEEE ComSoc Technology Blog",
+      "url": "https://techblog.comsoc.org/2026/03/30/the-financial-trap-of-autonomous-networks-scaling-agentic-ai-in-the-telecom-core/",
+      "highlight": true
+    },
+    {
+      "id": 3,
+      "title": "From PagerDuty to Agentic Ops: The Rise of Self-Healing Kubernetes",
+      "category": "SRE & Self-Healing Infrastructure",
+      "publication": "CloudNativeNow",
+      "url": "https://cloudnativenow.com/contributed-content/from-pagerduty-to-agentic-ops-the-rise-of-self-healing-kubernetes/"
+    },
+    {
+      "id": 4,
+      "title": "The Efficiency Era: How Kubernetes v1.35 Finally Solves the Restart Headache",
+      "category": "Kubernetes & Cloud Infrastructure",
+      "publication": "CloudNativeNow",
+      "url": "https://cloudnativenow.com/contributed-content/the-efficiency-era-how-kubernetes-v1-35-finally-solves-the-restart-headache/"
+    },
+    {
+      "id": 5,
+      "title": "Zero Trust on OKE: How to Actually Secure Your Clusters with Terraform",
+      "category": "Cloud-Native Security",
+      "publication": "CloudNativeNow",
+      "url": "https://cloudnativenow.com/contributed-content/zero-trust-on-oke-how-to-actually-secure-your-clusters-with-terraform/"
+    },
+    {
+      "id": 6,
+      "title": "Beyond the Green Checkmark: Using Formal Verification to Stop ArgoCD Drift",
+      "category": "Platform Engineering & GitOps",
+      "publication": "CloudNativeNow",
+      "url": "https://cloudnativenow.com/contributed-content/beyond-the-green-checkmark-using-formal-verification-to-stop-argocd-drift/"
+    },
+    {
+      "id": 7,
+      "title": "Beyond Basic Sync: Why ArgoCD v3 is the Backbone of Modern Platform Engineering",
+      "category": "Platform Engineering & GitOps",
+      "publication": "PlatformEngineering.com",
+      "url": "https://platformengineering.com/features/beyond-basic-sync-why-argocd-v3-is-the-backbone-of-modern-platform-engineering/"
+    },
+    {
+      "id": 8,
+      "title": "The IDP Paradox: Why Your Internal Developer Platform Needs a Java-First Strategy",
+      "category": "Platform Engineering & GitOps",
+      "publication": "PlatformEngineering.com",
+      "url": "https://platformengineering.com/features/the-idp-paradox-why-your-internal-developer-platform-needs-a-java-first-strategy/"
+    },
+    {
+      "id": 9,
+      "title": "P2P-Accelerated AI Model Downloads: Native Hugging Face and ModelScope Protocols in Dragonfly",
+      "category": "AI/ML Infrastructure",
+      "publication": "Dragonfly Project Blog (d7y.io)",
+      "url": "https://d7y.io/blog/2026/03/11/p2p-accelerated-ai-model-downloads-native-hugging-face-and-modelscope-protocols-in-dragonfly/"
+    }
+  ],
+  "open_source_contributions": {
+    "total_prs": 26,
+    "total_projects": 15,
+    "foundations": ["CNCF", "ASWF"],
+    "community_roles": [
+      {
+        "project": "Dragonfly",
+        "role": "Community Member",
+        "foundation": "CNCF",
+        "status": "Incubating",
+        "achieved_date": "2026-03-25",
+        "description": "Achieved via community vote. Focus area: AI/ML model distribution, dragonfly-injector, Helm charts."
+      }
+    ],
+    "cncf_projects": [
+      {
+        "name": "Dragonfly",
+        "description": "P2P-based file distribution and image acceleration (CNCF Incubating)",
+        "focus": "AI/ML model distribution — Hugging Face & ModelScope protocol support",
+        "prs": [
+          {"id": "client#1665", "url": "https://github.com/dragonflyoss/client/pull/1665", "title": "Add Hugging Face backend support with hf:// protocol", "status": "merged"},
+          {"id": "client#1673", "url": "https://github.com/dragonflyoss/client/pull/1673", "title": "Add ModelScope backend support with modelscope:// protocol", "status": "merged"},
+          {"id": "d7y.io#386", "url": "https://github.com/dragonflyoss/d7y.io/pull/386", "title": "Add hf:// protocol documentation", "status": "merged"},
+          {"id": "d7y.io#398", "url": "https://github.com/dragonflyoss/d7y.io/pull/398", "title": "Add P2P-accelerated AI model downloads blog post", "status": "merged"},
+          {"id": "helm-charts#455", "url": "https://github.com/dragonflyoss/helm-charts/pull/455", "title": "Add injector support to helm chart", "status": "merged"},
+          {"id": "helm-charts#480", "url": "https://github.com/dragonflyoss/helm-charts/pull/480", "title": "Replace deprecated bitnamilegacy/mysql with bitnami/mysql", "status": "merged"}
+        ]
+      },
+      {
+        "name": "Volcano",
+        "description": "Cloud-native batch scheduling for AI/HPC (CNCF Incubating)",
+        "focus": "GPU NUMA topology-aware scheduling for AI workloads",
+        "prs": [
+          {"id": "#5095", "url": "https://github.com/volcano-sh/volcano/pull/5095", "title": "GPU NUMA topology awareness in scheduler", "status": "merged"},
+          {"id": "apis#229", "url": "https://github.com/volcano-sh/apis/pull/229", "title": "Add GPUInfo type to NumatopoSpec CRD", "status": "merged"},
+          {"id": "resource-exporter#12", "url": "https://github.com/volcano-sh/resource-exporter/pull/12", "title": "GPU NUMA topology discovery via sysfs", "status": "merged"}
+        ]
+      },
+      {
+        "name": "Kubernetes",
+        "description": "Production-Grade Container Orchestration (CNCF Graduated)",
+        "focus": "Documentation improvements",
+        "prs": [
+          {"id": "#53891", "url": "https://github.com/kubernetes/website/pull/53891", "title": "Document deployment.kubernetes.io/* annotations", "status": "merged"},
+          {"id": "#53892", "url": "https://github.com/kubernetes/website/pull/53892", "title": "Add kubectl apply view-last-applied documentation", "status": "merged"}
+        ]
+      },
+      {
+        "name": "TiKV",
+        "description": "Distributed transactional key-value database (CNCF Graduated)",
+        "focus": "Developer experience",
+        "prs": [
+          {"id": "#19225", "url": "https://github.com/tikv/tikv/pull/19225", "title": "Add AGENTS.md for AI agent guidance", "status": "merged"}
+        ]
+      },
+      {
+        "name": "KEDA",
+        "description": "Kubernetes Event-driven Autoscaling (CNCF Graduated)",
+        "focus": "GPU/AI inference scaling architecture",
+        "prs": [
+          {"id": "keda-docs#1658", "url": "https://github.com/kedacore/keda-docs/pull/1658", "title": "Removing metricName from the kedadocs", "status": "merged"},
+          {"id": "#7538", "url": "https://github.com/kedacore/keda/issues/7538", "title": "GPU/AI inference scaler architectural analysis", "status": "open"}
+        ]
+      },
+      {
+        "name": "Metal³",
+        "description": "Bare metal host provisioning for Kubernetes (CNCF Sandbox)",
+        "prs": [
+          {"id": "#624", "url": "https://github.com/metal3-io/metal3-docs/pull/624", "title": "Fix redirect links in tryit.md", "status": "merged"}
+        ]
+      },
+      {
+        "name": "OpenTelemetry",
+        "description": "Observability framework (CNCF Graduated)",
+        "prs": [
+          {"id": "#8632", "url": "https://github.com/open-telemetry/opentelemetry.io/pull/8632", "title": "Add .NET troubleshooting page", "status": "merged"}
+        ]
+      },
+      {
+        "name": "kpt",
+        "description": "Kubernetes-native packaging and resource management (CNCF Sandbox)",
+        "prs": [
+          {"id": "#4278", "url": "https://github.com/kptdev/kpt/pull/4278", "title": "Fix kpt fn doc command for KRM functions expecting input", "status": "merged"}
+        ]
+      }
+    ],
+    "aswf_projects": [
+      {
+        "name": "OpenColorIO",
+        "description": "Color management library (ASWF)",
+        "prs": [
+          {"id": "#2229", "url": "https://github.com/AcademySoftwareFoundation/OpenColorIO/pull/2229", "title": "Add release signing workflow", "status": "merged"},
+          {"id": "#2230", "url": "https://github.com/AcademySoftwareFoundation/OpenColorIO/pull/2230", "title": "Add Dependabot configuration", "status": "merged"},
+          {"id": "#2243", "url": "https://github.com/AcademySoftwareFoundation/OpenColorIO/pull/2243", "title": "Add Vulkan unit test framework", "status": "merged"}
+        ]
+      },
+      {
+        "name": "OpenCue",
+        "description": "Cloud rendering management system (ASWF)",
+        "prs": [
+          {"id": "#2134", "url": "https://github.com/AcademySoftwareFoundation/OpenCue/pull/2134", "title": "Add scheduled subscription recalculation task", "status": "merged"}
+        ]
+      },
+      {
+        "name": "OpenImageIO",
+        "description": "Image processing library (ASWF)",
+        "prs": [
+          {"id": "#4976", "url": "https://github.com/AcademySoftwareFoundation/OpenImageIO/pull/4976", "title": "Fix IBA::compare_Yee() channel access", "status": "merged"}
+        ]
+      },
+      {
+        "name": "RAWtoACES",
+        "description": "RAW to ACES image conversion (ASWF)",
+        "prs": [
+          {"id": "#222", "url": "https://github.com/AcademySoftwareFoundation/rawtoaces/pull/222", "title": "Add build developer documentation", "status": "merged"}
+        ]
+      },
+      {
+        "name": "xSTUDIO",
+        "description": "Playback and review application (ASWF)",
+        "prs": [
+          {"id": "#186", "url": "https://github.com/AcademySoftwareFoundation/xstudio/pull/186", "title": "Fix broken build guide links", "status": "merged"}
+        ]
+      }
+    ],
+    "personal_projects": [
+      {
+        "name": "keda-gpu-scaler",
+        "url": "https://github.com/pmady/keda-gpu-scaler",
+        "description": "KEDA External gRPC Scaler for GPU/AI workloads. Native NVML metrics, DaemonSet deployment, pre-built scaling profiles (vLLM, Triton, training), Helm chart, scale-to-zero.",
+        "tech": ["Go", "gRPC", "NVIDIA NVML", "Kubernetes", "Helm"]
+      },
+      {
+        "name": "kubeai-autoscaler",
+        "url": "https://github.com/pmady/kubeai-autoscaler",
+        "description": "Kubernetes-native AI inference workload autoscaler. GPU utilization, latency SLA, queue depth scaling.",
+        "tech": ["Go", "Kubernetes", "Prometheus", "controller-runtime"]
+      },
+      {
+        "name": "golden-kubestronaut-learning",
+        "url": "https://github.com/pmady/golden-kubestronaut-learning",
+        "description": "Comprehensive Kubernetes certification study guides and resources for achieving Kubestronaut and Golden Kubestronaut status.",
+        "tech": ["MkDocs", "Python", "Markdown"]
+      },
+      {
+        "name": "ingress2gateway",
+        "url": "https://github.com/pmady/ingress2gateway",
+        "description": "Convert Kubernetes Ingress to Gateway API. Web UI, CLI, GitHub Action, kubectl plugin. Supports Nginx, Traefik, Istio, AWS ALB, GKE, Kong, Contour.",
+        "tech": ["Python", "FastAPI", "React", "Kubernetes"]
+      },
+      {
+        "name": "llmops",
+        "url": "https://github.com/pmady/llmops",
+        "description": "The Ultimate Curated List of LLMOps Tools & Resources covering models, inference engines, orchestration, and observability.",
+        "tech": ["Markdown"]
+      }
+    ]
+  },
+  "expertise_areas": [
+    "Kubernetes & Container Orchestration",
+    "AI/ML Infrastructure & GPU Scheduling",
+    "Platform Engineering & Internal Developer Platforms",
+    "GitOps (ArgoCD, Flux)",
+    "Observability (Prometheus, OpenTelemetry, Grafana, Datadog)",
+    "Cloud-Native Security & Zero-Trust",
+    "P2P Content Distribution (Dragonfly)",
+    "Batch Computing & HPC (Volcano)",
+    "Event-Driven Autoscaling (KEDA)",
+    "FinOps & Cost Optimization",
+    "CI/CD Pipeline Architecture",
+    "Service Mesh (Istio, Cilium)"
+  ],
+  "cloud_platforms": ["AWS (Primary)", "Azure"],
+  "github_repos_to_track": [
+    "dragonflyoss/dragonfly",
+    "dragonflyoss/client",
+    "dragonflyoss/d7y.io",
+    "dragonflyoss/helm-charts",
+    "volcano-sh/volcano",
+    "volcano-sh/apis",
+    "volcano-sh/resource-exporter",
+    "kedacore/keda",
+    "kedacore/keda-docs",
+    "kubernetes/website",
+    "tikv/tikv",
+    "open-telemetry/opentelemetry.io",
+    "AcademySoftwareFoundation/OpenColorIO",
+    "AcademySoftwareFoundation/OpenCue",
+    "AcademySoftwareFoundation/OpenImageIO"
+  ]
+}

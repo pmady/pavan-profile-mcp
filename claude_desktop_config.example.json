@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "pavan_profile": {
+      "command": "uv",
+      "args": ["--directory", "/path/to/pavan-profile-mcp", "run", "server.py"],
+      "env": {
+        "GITHUB_TOKEN": "ghp_optional_token_for_higher_rate_limits"
+      }
+    }
+  }
+}
