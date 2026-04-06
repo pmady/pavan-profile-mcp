@@ -111,12 +111,25 @@ Add to your MCP config:
 }
 ```
 
-### Smithery (Public Hosting)
+### Railway (Public Hosting)
 
-This server is designed for deployment on [Smithery.ai](https://smithery.ai) — the "App Store" for MCP servers. See the `smithery.yaml` config included in this repo.
+This server is deployed on [Railway](https://railway.app) with SSE transport for remote access.
 
-```bash
-npx @smithery/cli install @pmady/pavan-profile-mcp
+1. Fork or connect this repo on [Railway.app](https://railway.app)
+2. Railway auto-detects the `Dockerfile` and deploys
+3. Environment variables are pre-set (`MCP_TRANSPORT=sse`, `PORT` injected by Railway)
+4. Your live URL: `https://pavan-profile-mcp.up.railway.app/sse`
+
+Connect any MCP client to the remote endpoint:
+
+```json
+{
+  "mcpServers": {
+    "pavan_profile": {
+      "url": "https://pavan-profile-mcp.up.railway.app/sse"
+    }
+  }
+}
 ```
 
 ---
@@ -128,7 +141,7 @@ AI Agent (Claude / Gemini / Copilot)
         │
         ▼
 ┌─────────────────────────────┐
-│   MCP Protocol (stdio)      │
+│   MCP Protocol (stdio/SSE)   │
 ├─────────────────────────────┤
 │   FastMCP Server            │
 │                             │
@@ -160,8 +173,10 @@ pavan-profile-mcp/
 ├── server.py              # MCP server — all resources and tools
 ├── data/
 │   └── profile.json       # Structured profile data (certs, articles, PRs)
+├── Dockerfile             # Railway/Render deployment
 ├── pyproject.toml         # Python project config
-├── smithery.yaml          # Smithery.ai deployment config
+├── SKILL.md               # Smithery skill definition
+├── smithery.yaml          # Smithery.ai config
 ├── claude_desktop_config.example.json
 ├── README.md
 └── LICENSE
