@@ -20,4 +20,5 @@ ENV PORT=8000
 EXPOSE 8000
 
 # Use FastMCP CLI to run with HTTP transport
-CMD ["sh", "-c", "uv run fastmcp run server.py --transport http --host 0.0.0.0 --port ${PORT}"]
+# --forwarded-allow-ips='*' trusts Railway's proxy headers
+CMD ["sh", "-c", "uv run fastmcp run server.py --transport http --host 0.0.0.0 --port ${PORT} --forwarded-allow-ips '*'"]
