@@ -21,7 +21,7 @@ from mcp.server.fastmcp import FastMCP
 # ---------------------------------------------------------------------------
 mcp = FastMCP(
     "Pavan-Madduri-Profile",
-    description=(
+    instructions=(
         "Personal Knowledge API for Pavan Madduri — Senior DevOps/Platform Engineer, "
         "CNCF Golden Kubestronaut, published author on CNCF Blog, IEEE ComSoc, "
         "CloudNativeNow & PlatformEngineering.com, and open source contributor "
