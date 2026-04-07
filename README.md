@@ -113,12 +113,9 @@ Add to your MCP config:
 
 ### Railway (Public Hosting)
 
-This server is deployed on [Railway](https://railway.app) with SSE transport for remote access.
+**Live Production Server**: `https://pavan-profile-mcp-production.up.railway.app/mcp`
 
-1. Fork or connect this repo on [Railway.app](https://railway.app)
-2. Railway auto-detects the `Dockerfile` and deploys
-3. Environment variables are pre-set (`MCP_TRANSPORT=sse`, `PORT` injected by Railway)
-4. Your live URL: `https://pavan-profile-mcp.up.railway.app/sse`
+This server is deployed on [Railway](https://railway.app) with HTTP transport for remote access.
 
 Connect any MCP client to the remote endpoint:
 
@@ -126,11 +123,17 @@ Connect any MCP client to the remote endpoint:
 {
   "mcpServers": {
     "pavan_profile": {
-      "url": "https://pavan-profile-mcp.up.railway.app/sse"
+      "url": "https://pavan-profile-mcp-production.up.railway.app/mcp"
     }
   }
 }
 ```
+
+**To deploy your own:**
+1. Fork this repo and connect it on [Railway.app](https://railway.app)
+2. Railway auto-detects the `Dockerfile` and deploys
+3. Generate a public domain in Settings → Networking
+4. Your MCP endpoint will be at `https://<your-domain>/mcp`
 
 ---
 
