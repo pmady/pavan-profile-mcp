@@ -15,9 +15,9 @@ COPY data/ data/
 RUN uv pip install --system -e .
 
 # Railway/Render set PORT automatically; default to 8000
-ENV MCP_TRANSPORT=sse
 ENV PORT=8000
 
 EXPOSE 8000
 
-CMD ["python", "server.py"]
+# Use FastMCP CLI to run with HTTP transport
+CMD ["sh", "-c", "uv run fastmcp run server.py --transport http --host 0.0.0.0 --port ${PORT}"]
