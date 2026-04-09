@@ -14,10 +14,15 @@ COPY data/ data/
 # Install dependencies
 RUN uv pip install --system -e .
 
-# Railway/Render set PORT automatically; default to 8000
-ENV PORT=8000
+# Render sets PORT automatically; default to 10000
+ENV PORT=10000
 
-EXPOSE 8000
+# Configure uvicorn to trust proxy headers (Render's load balancer)
+ENV UVICORN_PROXY_HEADERS=1
+ENV UVICORN_FORWARDED_ALLOW_IPS=*
 
-# Use FastMCP CLI - Railway handles proxy headers at the edge
+EXPOSE 10000
+
+# Use FastMCP CLI with HTTP transport
+# The environment variables above configure uvicorn to trust Render's proxy
 CMD ["sh", "-c", "uv run fastmcp run server.py --transport http --host 0.0.0.0 --port ${PORT}"]
