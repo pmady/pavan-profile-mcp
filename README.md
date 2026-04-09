@@ -111,11 +111,13 @@ Add to your MCP config:
 }
 ```
 
-### Railway (Public Hosting)
+### Render (Public Hosting)
 
-**Live Production Server**: `https://pavan-profile-mcp-production.up.railway.app/mcp`
+**One-Click Deploy**: [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/pmady/pavan-profile-mcp)
 
-This server is deployed on [Railway](https://railway.app) with HTTP transport for remote access.
+This server deploys on [Render](https://render.com) with HTTP transport for remote access.
+
+**Live Production Server**: `https://pavan-profile-mcp.onrender.com/mcp`
 
 Connect any MCP client to the remote endpoint:
 
@@ -123,17 +125,19 @@ Connect any MCP client to the remote endpoint:
 {
   "mcpServers": {
     "pavan_profile": {
-      "url": "https://pavan-profile-mcp-production.up.railway.app/mcp"
+      "url": "https://pavan-profile-mcp.onrender.com/mcp"
     }
   }
 }
 ```
 
-**To deploy your own:**
-1. Fork this repo and connect it on [Railway.app](https://railway.app)
-2. Railway auto-detects the `Dockerfile` and deploys
-3. Generate a public domain in Settings → Networking
-4. Your MCP endpoint will be at `https://<your-domain>/mcp`
+**Manual deployment:**
+1. Fork this repo
+2. Go to [Render Dashboard](https://dashboard.render.com)
+3. Click "New" → "Blueprint"
+4. Connect your forked repo
+5. Render auto-detects `render.yaml` and deploys
+6. Your MCP endpoint will be at `https://<your-service-name>.onrender.com/mcp`
 
 ---
 

@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: pavan-profile-mcp
+    runtime: docker
+    repo: https://github.com/pmady/pavan-profile-mcp
+    branch: main
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /mcp
+    envVars:
+      - key: PORT
+        value: 10000
