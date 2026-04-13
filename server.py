@@ -199,7 +199,9 @@ def get_eb1a_evidence(criterion: str) -> str:
             "evidence": [
                 "GPU NUMA topology-aware scheduling merged into Volcano (CNCF Incubating) — enables AI/HPC workloads to leverage hardware topology",
                 "Hugging Face (hf://) and ModelScope protocol support merged into Dragonfly (CNCF Incubating) — P2P-accelerated AI model distribution",
-                "KEDA GPU Scaler — open source external gRPC scaler for GPU/AI inference autoscaling",
+                "KEDA GPU Scaler — open source external gRPC scaler for GPU/AI inference autoscaling (referenced in KEDA #7538)",
+                "OpenTelemetry GPU Receiver — OTel Collector receiver for NVIDIA GPU metrics via NVML",
+                "Kube Topology Agent — open source K8s knowledge graph and automated root-cause analysis with GPU workload awareness",
                 "KubeAI Autoscaler — Kubernetes-native AI inference workload autoscaler",
                 "Ingress2Gateway — tool to convert Kubernetes Ingress to Gateway API",
                 "Vulkan unit test framework for OpenColorIO (ASWF)",
